@@ -18,7 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #2a263a url("../img/bg.jpg") top right no-repeat;
+  background: #301e77 url("../img/bg1.png") top right no-repeat;
   background-size: contain;
   left: 0;
   right: 0;
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   transition: ease-in-out 0.3s;
   position: relative;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   z-index: 997;
@@ -1011,7 +1011,7 @@ section .container {
   padding: 15px;
   text-align: right;
   font-size: 13px;
-  color: #fff;
+  color: #f7f3f3;
   z-index: 999999;
 }
 @media (max-width: 992px) {
